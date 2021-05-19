@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="124.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pngForGame/2048.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="116.0" layoutY="361.0" mnemonicParsing="false" onAction="#clickPlay" prefHeight="77.0" prefWidth="167.0" text="START GAME">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="225.0" layoutY="439.0" prefHeight="59.0" prefWidth="167.0" text="By Ballo Alexey 3530901/00001" textFill="#b7a60a" />
+   </children>
+</AnchorPane>
